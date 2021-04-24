@@ -8,4 +8,5 @@ Penugasan Magang IRIS 2021
 
 1. Double pointer (pointer to pointer)
 
-Double pointer (pointer to pointer) adalah pointer yang dapat menunjuk variabel pointer lainnya. Untuk mendeklarasikan variabel double pointer, digunakan dua simbol * dan dbPtr (**dbPtr).  Kegunaan paling umum dari variabel double pointer adalah untuk membuat array dua dimensi secara dinamis.
+Double pointer (pointer to pointer) adalah pointer yang dapat menunjuk variabel pointer lainnya. Kegunaan paling umum dari variabel double pointer adalah untuk membuat array dua dimensi secara dinamis.
+- Untuk mendeklarasikan variabel double pointer, digunakan dua simbol * dan dbPtr (**dbPtr).  
