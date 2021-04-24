@@ -1,5 +1,4 @@
-Problem : Write a program and input two integers in main and pass them to default constructor of the class. Show the result of the additon of two numbers.
-Solution : 
+//Write a program and input two integers in main and pass them to default constructor of the class. Show the result of the additon of two numbers.
 
 #include <iostream>
 
