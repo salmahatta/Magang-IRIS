@@ -13,3 +13,8 @@ Double pointer (pointer to pointer) adalah pointer yang dapat menunjuk variabel 
 --------------------------------------
 
 2. Pointer & Array 
+
+Array adalah kumpulan data yang disusun secara sekuensial. Karena disusun secara sekuensial, alamat-alamat memori tiap elemen array juga tersusun secara berurutan. Jika kita ingin mengetahui alamat memori dari array bisa dilakukan dengan metode pointer. Dan nama array akan menunjuk ke elemen pertama dari array tersebut.
+
+- Operatornya adalah *arr (*arr = arr[0], atau nilai dari elemen pertama dapat diakses dengan *arr atau *(arr + 0))
+-----------------------_
