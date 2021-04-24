@@ -97,6 +97,7 @@ Untuk mengakses member-member dari struct, digunakan operator dot (.) setelah na
 <nama_variabel>.<member_struct>
 
 > Contoh:
+> 
 > mhs1.umur = 19;
 > 
 > mhs1.semester = 3;
