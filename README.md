@@ -69,3 +69,12 @@ int main()
 > - Semester
 > - Status
 
+**Declaration & Variable of Struct**
+
+Pendeklarasian struct menggunakan sintaks sebagai berikut.
+```ruby
+struct <nama_struct> {
+    <tipe_data_member> <nama_member>;
+    <tipe_data_member> <nama_member>;
+    <tipe_data_member> <nama_member>;
+'''
