@@ -89,3 +89,41 @@ struct Mahasiswa {
     int status;
 };
 ```
+---------------------------------------------
+
+1. Access Member of Struct
+
+Untuk mengakses member-member dari struct, digunakan operator dot (.) setelah nama variabelnya.
+<nama_variabel>.<member_struct>
+
+> Contoh:
+> mhs1.umur = 19;
+> mhs1.semester = 3;
+> mhs2.umur = 20;
+> mhs2.semester = 5;
+
+Contoh program untuk mendemonstrasikan Struct:
+
+```ruby
+struct mahasiswa{
+    string nama;
+    string jurusan;
+    float ipk;
+};
+ 
+int main(){
+ 
+    mahasiswa mhs;
+ 
+    mhs.nama="Setiawan Dimas";
+    mhs.jurusan="Teknik Informatika";
+    mhs.ipk=3.42;
+    
+    cout<<"DATA MAHASISWA"<<endl;
+    cout<<"Nama    : "<<mhs.nama<<endl;
+    cout<<"Jurusan : "<<mhs.jurusan<<endl;
+    cout<<"IPK     : "<<mhs.ipk<<endl;
+      
+    return 0;
+}
+```
