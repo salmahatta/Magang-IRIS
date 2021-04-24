@@ -5,6 +5,7 @@ Penugasan Magang IRIS 2021
 - Deklarasi variabel pointer menggunakan operator *ptr
 - Operator dereference menggunakan simbol yang sama dengan simbol operator perkalian, yakni * (simbol asterisk). Namun, fungsinya sangat berbeda. Operator dereference digunakan untuk mengakses nilai yang ditunjuk (pointed) dari sebuah variabel pointer.
 ---------------------------------------
+
 1. Double pointer (pointer to pointer)
 
 Double pointer (pointer to pointer) adalah pointer yang dapat menunjuk variabel pointer lainnya. Untuk mendeklarasikan variabel double pointer, digunakan dua simbol * dan dbPtr (**dbPtr).  Kegunaan paling umum dari variabel double pointer adalah untuk membuat array dua dimensi secara dinamis.
