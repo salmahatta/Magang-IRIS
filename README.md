@@ -29,9 +29,10 @@ Array adalah kumpulan data yang disusun secara sekuensial. Karena disusun secara
 
 ***Perbedaan Pass by Value & Pass by Address***
 
-Pass by Address | Pass by Value
+
+``` Pass by Address | Pass by Value
 ------------ | -------------
-```ruby
+ruby
 int main()
 {
     int x = 10, y = 6;
