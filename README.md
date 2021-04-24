@@ -1,5 +1,4 @@
-# Pointer and Struct
-Penugasan Magang IRIS 2021
+# Penugasan Magang IRIS 2021 ( Pointer and Struct )
 ----------------------------
 
 # Pointer
