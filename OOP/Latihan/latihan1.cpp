@@ -1,5 +1,4 @@
-Problem : Write a class having two private variables and one member function which will return the area of the rectangle.
-Solution :
+//Write a class having two private variables and one member function which will return the area of the rectangle.
 
 using namespace std;
 
