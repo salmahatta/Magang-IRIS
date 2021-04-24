@@ -29,11 +29,12 @@ Array adalah kumpulan data yang disusun secara sekuensial. Karena disusun secara
 
 ***Perbedaan Pass by Value & Pass by Address***
 
-
-```
 Pass by Address | Pass by Value
 ------------ | -------------
-ruby
+
+```ruby
+Pass by Address | Pass by Value
+------------ | -------------
 int main()
 {
     int x = 10, y = 6;
@@ -42,7 +43,8 @@ int main()
 
     return 0;
 }
-``` | ```nt main()
+```
+```nt main()
 {
     int x = 10, y = 6;
     change(&x, &y);
