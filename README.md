@@ -98,8 +98,11 @@ Untuk mengakses member-member dari struct, digunakan operator dot (.) setelah na
 
 > Contoh:
 > mhs1.umur = 19;
+> 
 > mhs1.semester = 3;
+> 
 > mhs2.umur = 20;
+> 
 > mhs2.semester = 5;
 
 Contoh program untuk mendemonstrasikan Struct:
