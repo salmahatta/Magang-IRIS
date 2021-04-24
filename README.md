@@ -12,4 +12,4 @@ Double pointer (pointer to pointer) adalah pointer yang dapat menunjuk variabel 
 - Untuk mendeklarasikan variabel double pointer, digunakan dua simbol * dan dbPtr (**dbPtr).  
 --------------------------------------
 
-2.Pointer & Array 
+2. Pointer & Array 
