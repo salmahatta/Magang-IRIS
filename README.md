@@ -27,6 +27,26 @@ Array adalah kumpulan data yang disusun secara sekuensial. Karena disusun secara
 
 **Pass by Address/Reference** berarti argumen yang dimasukkan (passing) ke parameter fungsi adalah alamat memori variabel. Segala perubahan yang terjadi pada variabel tersebut, juga mempengaruhi langsung ke variabel asalnya. Hal ini terjadi karena argumennya adalah langsung berupa alamat memorinya. Dan karena parameternya menerima alamat memori, maka variabel parameternya harus berupa pointer.
 
-__Perbedaan Pass by Value & Pass by Address__
+***Perbedaan Pass by Value & Pass by Address***
 
+Pass by Address | Pass by Value
+------------ | -------------
+```ruby
+int main()
+{
+    int x = 10, y = 6;
+    change(&x, &y);
+    printf("%d %d\n", x, y);
+
+    return 0;
+}
+``` | ```nt main()
+{
+    int x = 10, y = 6;
+    change(&x, &y);
+    printf("%d %d\n", x, y);
+
+    return 0;
+}
+```
 
