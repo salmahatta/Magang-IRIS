@@ -59,12 +59,12 @@ int main()
 
 **Struct** adalah salah satu tipe data turunan atau bisa disebut juga user defined data type yang dapat mengelompokkan beberapa variabel di bawah satu nama. Tidak seperti array yang hanya dapat menyimpan elemen dengan tipe data sama, struct dapat mengelompokkan elemen dengan tipe data yang berbeda-beda.
 
->Contoh:
-Mahasiswa merupakan suatu entitas yang di dalamnya terdapat atribut-atribut berupa:
-- Nama
-- NRP
-- Umur
-- IPK
-- Semester
-- Status
+> Contoh:
+> Mahasiswa merupakan suatu entitas yang di dalamnya terdapat atribut-atribut berupa:
+> - Nama
+> - NRP
+> - Umur
+> - IPK
+> - Semester
+> - Status
 
