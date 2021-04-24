@@ -77,4 +77,15 @@ struct <nama_struct> {
     <tipe_data_member> <nama_member>;
     <tipe_data_member> <nama_member>;
     <tipe_data_member> <nama_member>;
-'''
+```
+Contoh deklarasi struct berdasarkan kasus Mahasiswa sebelumnya.
+```ruby
+struct Mahasiswa {
+    char nama[Joko];
+    char nrp[20];
+    int umur;
+    double ipk;
+    int semester;
+    int status;
+};
+```
