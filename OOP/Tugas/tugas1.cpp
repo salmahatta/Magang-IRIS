@@ -7,35 +7,35 @@ using namespace std;
 class Shape
 {
 protected:
-	float width; 
+  float width; 
   float height;
 public:
 	Shape (float a, float b){
 		width = x;
-		length = y;
+		height = y;
 	}
 };
 class Rectangle: public Shape{
 public:
 	float area (){
-		return (length*width);
+		return (height*width);
 	}
 };
 class Segitiga: public Shape{
 public:
 	float area (){
-		return (length*width/2);
+		return (height*width/2);
 	}
 };
 
 int main (){
 
-	Rectangle rec;
-	rec.set_data (3,4);
+  Rectangle rec;
+  rec.set_data (3,4);
   cout << rec.area() << endl;
   
   Triangle tri;
-	tri.set_data (7,8);
-	cout << tri.area() << endl;
+  tri.set_data (7,8);
+  cout << tri.area() << endl;
 	return 0;
 }
