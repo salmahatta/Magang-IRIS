@@ -10,7 +10,7 @@ protected:
   float width; 
   float height;
 public:
-	Shape (float a, float b){
+	Shape (float x, float y){
 		width = x;
 		height = y;
 	}
